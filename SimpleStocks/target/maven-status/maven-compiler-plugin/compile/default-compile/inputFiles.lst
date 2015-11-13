@@ -1,0 +1,16 @@
+C:\Users\kszosze\Documents\workspace\jpmorgan\SimpleStocks\src\main\java\uk\co\simple\stocks\model\Stock.java
+C:\Users\kszosze\Documents\workspace\jpmorgan\SimpleStocks\src\main\java\uk\co\simple\stocks\services\TradeService.java
+C:\Users\kszosze\Documents\workspace\jpmorgan\SimpleStocks\src\main\java\uk\co\simple\stocks\model\Trade.java
+C:\Users\kszosze\Documents\workspace\jpmorgan\SimpleStocks\src\main\java\uk\co\simple\stocks\strategy\impl\FormulaStrategyImpl.java
+C:\Users\kszosze\Documents\workspace\jpmorgan\SimpleStocks\src\main\java\uk\co\simple\stocks\repository\impl\StockRepositoryImpl.java
+C:\Users\kszosze\Documents\workspace\jpmorgan\SimpleStocks\src\main\java\uk\co\simple\stocks\services\impl\TradeServiceImpl.java
+C:\Users\kszosze\Documents\workspace\jpmorgan\SimpleStocks\src\main\java\uk\co\simple\stocks\util\comparator\TradeDateComparator.java
+C:\Users\kszosze\Documents\workspace\jpmorgan\SimpleStocks\src\main\java\uk\co\simple\stocks\model\enums\StockType.java
+C:\Users\kszosze\Documents\workspace\jpmorgan\SimpleStocks\src\main\java\uk\co\simple\stocks\services\StockService.java
+C:\Users\kszosze\Documents\workspace\jpmorgan\SimpleStocks\src\main\java\uk\co\simple\stocks\repository\StockRepository.java
+C:\Users\kszosze\Documents\workspace\jpmorgan\SimpleStocks\src\main\java\uk\co\simple\stocks\repository\impl\TradeRepositoryImpl.java
+C:\Users\kszosze\Documents\workspace\jpmorgan\SimpleStocks\src\main\java\uk\co\simple\stocks\strategy\FormulaStrategy.java
+C:\Users\kszosze\Documents\workspace\jpmorgan\SimpleStocks\src\main\java\uk\co\simple\stocks\services\impl\StockServiceImpl.java
+C:\Users\kszosze\Documents\workspace\jpmorgan\SimpleStocks\src\main\java\uk\co\simple\stocks\repository\TradeRepository.java
+C:\Users\kszosze\Documents\workspace\jpmorgan\SimpleStocks\src\main\java\uk\co\simple\stocks\Application.java
+C:\Users\kszosze\Documents\workspace\jpmorgan\SimpleStocks\src\main\java\uk\co\simple\stocks\controllers\SimpleStockRest.java
