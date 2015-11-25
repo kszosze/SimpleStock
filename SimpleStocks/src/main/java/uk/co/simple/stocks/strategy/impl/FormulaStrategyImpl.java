@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 
 import uk.co.simple.stocks.model.Stock;
 import uk.co.simple.stocks.model.Trade;
+import uk.co.simple.stocks.model.enums.StockType;
 import uk.co.simple.stocks.services.StockService;
 import uk.co.simple.stocks.services.TradeService;
 import uk.co.simple.stocks.strategy.FormulaStrategy;
@@ -46,7 +47,13 @@ public class FormulaStrategyImpl implements FormulaStrategy {
 				{
 					if (stock.getLastDiv() > 0)
 					{
-						result = stock.getLastDiv()/trade.getPrice();
+						if (stock.getType().equals(StockType.Common))
+						{
+							result = stock.getLastDiv()/trade.getPrice();
+						} else
+						{
+							result = stock.getFixDiv()*stock.getParValue()/trade.getPrice();
+						}
 					}
 				}
 			}
