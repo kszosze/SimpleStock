@@ -5,4 +5,4 @@ sudo: false
 install: true
 script :
   - cd SimpleStock
-  - mvn test
+  - mvn clean install test
