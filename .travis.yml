@@ -4,5 +4,5 @@ jdk:
 sudo: false
 install: true
 script :
-  - cd SimpleStock
+  - cd SimpleStocks
   - mvn clean install test
