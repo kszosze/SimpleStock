@@ -24,13 +24,8 @@ public class StockRepositoryImpl implements StockRepository{
 	 */
 	public boolean save(Stock stock) {
 		final String key = stock.getSymbol().toUpperCase();
-		boolean result = false;
-		if (!memoryMap.containsKey(key))
-		{
-			memoryMap.put(key,stock);
-			result = true;
-		}
-		return result;
+		memoryMap.put(key,stock);
+		return true;
 	}
 	
 	/* (non-Javadoc)
