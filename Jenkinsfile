@@ -7,6 +7,7 @@ node {
    
    // Mark the code build 'stage'....
    stage 'Build'
+   cd SimpleStocks
    // Run the maven build
    sh "mvn clean install"
 }
